@@ -1,7 +1,71 @@
-article {}
-
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #ffffff;
+    padding: 30px;
+    color:  #777777;
+
+}
+header{
+    left: 80px;
+    background-color: #ffffff;
+    height:25px;
+}
+footer {
+    color: black;
+    font-size: small;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    background-color: #777777;
+    height: 40px;
+    border-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 6px;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+p{
+    padding: 0 0 10 0;
+}
+.bg-pattern {
+    clear: both;
+  /* margin-top: 40px; */
+  padding: 50px;
+  padding-top: 5px;
+  /* background-color: #b1f3f3;  */
+  height: 650px;
+  background-image: url("../images/circles-light.png");
+  border-style: solid;
+  border-top-color: #999a9b;
+  border-top-width: 2px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-color: #4aaaa5;
+  border-bottom-width: 6px;
+
+}
+
+.center-panel {
+    clear: both;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: 120px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 250px;
+    width: 900px;
+    height: 550px;
+    background-color: #ffffff;
+    padding: 15px;
+    z-index: 1;
+
 }
 
 ul {
@@ -15,24 +79,17 @@ li a {
     width: 60 px;
 }
 
-body {
-    font-size: 18px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #777777;
-    background-color: #ffffff;
-}
+
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     float: right;
-    width: 260px;
+    width: 230px;
 }
 
-li {
-    display: inline-block;
-}
+li { display: inline-block; }
 
 li a {
     color: #777777;
@@ -43,13 +100,39 @@ li a {
 li a:hover {
     background-color: #4aaaa5;
     color: white;
+
+}
+h1, h2 {font-family: Georgia, Times, "Times New Roman", serif;}
+h1 { 
+    float: left;
+    box-shadow: 10px 0px 0px 0px #4aaaa5, -10px 0px 0px 0px #4aaaa5;
+   
+    height: 65px;
+    /* width: 200px; */
+    
+    top: 0; 
+    margin: 0;
+    margin-left: 222px; 
+ 
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+    /* padding: 10px; */
 }
 
-h1 {}
-
-h2 {}
-
-.header-font {
-    font-family: Georgia, Times, "Times New Roman", serif;
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
     color: #4aaaa5;
+    padding-bottom: 13px;
+    border-bottom: 3px solid #777777;
+}
+.image_about {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 230px;
+    height: 310px;
 }
