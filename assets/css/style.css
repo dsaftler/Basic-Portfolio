@@ -57,15 +57,15 @@ p {
 .center-panel {
     clear: both;
     display: inline-block;
-    position: absolute;
-    margin: auto;
+    /* position: absolute; */
     top: 150px;
     right: 0;
     bottom: 0;
     left: 0;
-    margin-left: 200px;
-    width: 900px;
-    height: 550px;
+    margin-left: 115px;
+    margin-top: 20px;
+    width: 960px;
+    height: 535px;
     background-color: #ffffff;
     padding: 15px;
     overflow: auto;
